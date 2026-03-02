@@ -95,13 +95,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UserControlCart.Designer.vb">
+      <DependentUpon>UserControlCart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlCart.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlProfile.Designer.vb">
+      <DependentUpon>UserControlProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlProfile.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlVoucher.Designer.vb">
+      <DependentUpon>UserControlVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlVoucher.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlCart.resx">
+      <DependentUpon>UserControlCart.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
