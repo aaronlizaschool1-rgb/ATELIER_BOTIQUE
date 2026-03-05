@@ -127,6 +127,9 @@
     <EmbeddedResource Include="UserControlCart.resx">
       <DependentUpon>UserControlCart.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlProfile.resx">
+      <DependentUpon>UserControlProfile.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
