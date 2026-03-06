@@ -25,9 +25,9 @@ Partial Class Form1
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -106,38 +106,38 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(655, 48)
+        Me.Panel1.Location = New System.Drawing.Point(729, 59)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(53, 67)
+        Me.Panel1.Size = New System.Drawing.Size(60, 85)
         Me.Panel1.TabIndex = 0
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.Transparent
-        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel2, 2)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(714, 48)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(62, 67)
-        Me.Panel2.TabIndex = 1
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Transparent
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel3.Location = New System.Drawing.Point(782, 48)
+        Me.Panel3.Location = New System.Drawing.Point(870, 59)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(62, 67)
+        Me.Panel3.Size = New System.Drawing.Size(70, 85)
         Me.Panel3.TabIndex = 0
         '
         'Panel4
         '
         Me.TableLayoutPanel1.SetColumnSpan(Me.Panel4, 6)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel4.Location = New System.Drawing.Point(629, 159)
+        Me.Panel4.Location = New System.Drawing.Point(700, 197)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(232, 383)
+        Me.Panel4.Size = New System.Drawing.Size(259, 480)
         Me.Panel4.TabIndex = 0
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel2, 2)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel2.Location = New System.Drawing.Point(795, 59)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(69, 85)
+        Me.Panel2.TabIndex = 1
         '
         'Form1
         '
