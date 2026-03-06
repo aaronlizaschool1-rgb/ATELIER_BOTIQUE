@@ -143,5 +143,32 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress9.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

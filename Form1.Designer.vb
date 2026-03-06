@@ -28,6 +28,23 @@ Partial Class Form1
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Panel12 = New System.Windows.Forms.Panel()
+        Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Panel16 = New System.Windows.Forms.Panel()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.Panel18 = New System.Windows.Forms.Panel()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.Panel20 = New System.Windows.Forms.Panel()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -54,9 +71,9 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnCount = 20
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.796116!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.373247!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.746494!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.256742!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.128371!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.942307!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.115385!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.980769!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.55124!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.265372!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.55124!))
@@ -76,6 +93,23 @@ Partial Class Form1
         Me.TableLayoutPanel1.Controls.Add(Me.Panel3, 17, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel4, 13, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 15, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel5, 1, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel6, 6, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel7, 11, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel8, 15, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel9, 1, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel10, 6, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel11, 11, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel12, 15, 11)
+        Me.TableLayoutPanel1.Controls.Add(Me.FlowLayoutPanel1, 1, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel13, 2, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel14, 7, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel15, 12, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel16, 16, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel17, 2, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel18, 7, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel19, 12, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.Panel20, 16, 13)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
@@ -139,6 +173,166 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(69, 85)
         Me.Panel2.TabIndex = 1
         '
+        'Panel5
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel5, 4)
+        Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel5.Location = New System.Drawing.Point(73, 2002)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(164, 281)
+        Me.Panel5.TabIndex = 2
+        '
+        'Panel6
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel6, 4)
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel6.Location = New System.Drawing.Point(321, 2002)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(163, 281)
+        Me.Panel6.TabIndex = 3
+        '
+        'Panel7
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel7, 3)
+        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel7.Location = New System.Drawing.Point(556, 2002)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(167, 281)
+        Me.Panel7.TabIndex = 4
+        '
+        'Panel8
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel8, 4)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel8.Location = New System.Drawing.Point(795, 2002)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(164, 281)
+        Me.Panel8.TabIndex = 5
+        '
+        'Panel9
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel9, 4)
+        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel9.Location = New System.Drawing.Point(73, 2433)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(164, 280)
+        Me.Panel9.TabIndex = 6
+        '
+        'Panel10
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel10, 4)
+        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel10.Location = New System.Drawing.Point(321, 2433)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(163, 280)
+        Me.Panel10.TabIndex = 7
+        '
+        'Panel11
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel11, 3)
+        Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel11.Location = New System.Drawing.Point(556, 2433)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(167, 280)
+        Me.Panel11.TabIndex = 8
+        '
+        'Panel12
+        '
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel12, 4)
+        Me.Panel12.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel12.Location = New System.Drawing.Point(795, 2433)
+        Me.Panel12.Name = "Panel12"
+        Me.Panel12.Size = New System.Drawing.Size(164, 280)
+        Me.Panel12.TabIndex = 9
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.FlowLayoutPanel1, 12)
+        Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(73, 197)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(621, 480)
+        Me.FlowLayoutPanel1.TabIndex = 18
+        '
+        'Panel13
+        '
+        Me.Panel13.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel13, 2)
+        Me.Panel13.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel13.Location = New System.Drawing.Point(97, 2350)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(109, 36)
+        Me.Panel13.TabIndex = 19
+        '
+        'Panel14
+        '
+        Me.Panel14.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel14, 2)
+        Me.Panel14.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel14.Location = New System.Drawing.Point(344, 2350)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(112, 36)
+        Me.Panel14.TabIndex = 20
+        '
+        'Panel15
+        '
+        Me.Panel15.BackColor = System.Drawing.Color.Transparent
+        Me.Panel15.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel15.Location = New System.Drawing.Point(586, 2350)
+        Me.Panel15.Name = "Panel15"
+        Me.Panel15.Size = New System.Drawing.Size(108, 36)
+        Me.Panel15.TabIndex = 21
+        '
+        'Panel16
+        '
+        Me.Panel16.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel16, 2)
+        Me.Panel16.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel16.Location = New System.Drawing.Point(827, 2350)
+        Me.Panel16.Name = "Panel16"
+        Me.Panel16.Size = New System.Drawing.Size(113, 36)
+        Me.Panel16.TabIndex = 22
+        '
+        'Panel17
+        '
+        Me.Panel17.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel17, 2)
+        Me.Panel17.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel17.Location = New System.Drawing.Point(97, 2761)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(109, 39)
+        Me.Panel17.TabIndex = 23
+        '
+        'Panel18
+        '
+        Me.Panel18.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel18, 2)
+        Me.Panel18.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel18.Location = New System.Drawing.Point(344, 2761)
+        Me.Panel18.Name = "Panel18"
+        Me.Panel18.Size = New System.Drawing.Size(112, 39)
+        Me.Panel18.TabIndex = 24
+        '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.Transparent
+        Me.Panel19.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel19.Location = New System.Drawing.Point(586, 2761)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(108, 39)
+        Me.Panel19.TabIndex = 25
+        '
+        'Panel20
+        '
+        Me.Panel20.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.SetColumnSpan(Me.Panel20, 2)
+        Me.Panel20.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel20.Location = New System.Drawing.Point(827, 2761)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(113, 39)
+        Me.Panel20.TabIndex = 26
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -163,4 +357,21 @@ Partial Class Form1
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel4 As Panel
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Panel9 As Panel
+    Friend WithEvents Panel10 As Panel
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents Panel12 As Panel
+    Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
+    Friend WithEvents Panel13 As Panel
+    Friend WithEvents Panel14 As Panel
+    Friend WithEvents Panel15 As Panel
+    Friend WithEvents Panel16 As Panel
+    Friend WithEvents Panel17 As Panel
+    Friend WithEvents Panel18 As Panel
+    Friend WithEvents Panel19 As Panel
+    Friend WithEvents Panel20 As Panel
 End Class
