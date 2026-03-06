@@ -38,6 +38,7 @@ Partial Class UserControlCart
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DimGray
         Me.Controls.Add(Me.Button1)
         Me.Name = "UserControlCart"
         Me.ResumeLayout(False)
